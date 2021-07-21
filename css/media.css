@@ -1,0 +1,182 @@
+@media  (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .menu {
+    margin-left: 50px;
+  }
+  .lang {
+    margin-right: 50px;
+  }
+  .header__banner {
+    padding-top: 40px;
+  }
+  .header__banner-content {
+    margin-left: 50px;
+  }
+  .header__banner-image {
+    margin-left: -50px;
+  }
+  .laptop {
+    right: 20px;
+  }
+  .about__item {
+    flex-basis: 32%;
+    padding: 30px 20px;
+  }
+}
+
+@media  (max-width: 990px) {
+  .container {
+    max-width: 740px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .header__banner {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .header__banner .container {
+    flex-direction: column;
+  }
+  .header__banner-content {
+    margin-left: 0;
+    text-align: center;
+  }
+  .header__banner .button {
+    margin: 30px auto 50px;
+  }
+  .header__banner h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .laptop {
+    position: absolute;
+    right: 90px;
+    top: 140px;
+  }
+  .about__items {
+    justify-content: center;
+  }
+  .about__item {
+    flex-basis: 47%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .portfolio__items {
+    justify-content: center;
+  }
+  .portfolio__item {
+    flex-basis: 80%;
+    margin-bottom: 40px;
+  }
+}
+
+@media  (max-width: 765px) {
+  .container {
+    max-width: 430px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  h1 {
+    font-size: 80px;
+    margin-top: 0px;
+  }
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .header__top .container {
+    flex-direction: column;
+  }
+  .menu {
+    margin-left: 0;
+  }
+  .menu__list {
+    justify-content: space-around;
+  }
+  .menu__list-link {
+    margin-right: 0;
+    padding: 20px 10px 10px;
+  }
+  .lang__list-link {
+    margin-left: 0;
+    padding: 10px 10px 20px;
+  }
+  .lang {
+    margin-right: 0;
+  }
+  .header__banner-image {
+    max-width: 420px;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 230px;
+  }
+  .girl {
+    left: 60px;
+    top: 20px;
+  }
+  .cup {
+    left: -15px;
+    top: 30px;
+  }
+  .laptop {
+    right: -10px;
+    top: 200px;
+  }
+  .about__item {
+    flex-basis: 80%;
+  }
+}
+
+@media  (max-width: 440px) {
+  .container {
+    max-width: 310px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  h1 {
+    font-size: 72px;
+    margin-top: 0px;
+  }
+  .menu__list-link {
+    font-size: 14px;
+  }
+  .lang__list-link {
+    font-size: 14px;
+  }
+  .header__banner-image {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 220px;
+  }
+  .girl {
+    max-width: 250px;
+    left: 10px;
+    top: 20px;
+  }
+  .cup {
+    max-width: 55px;
+    left: -35px;
+    top: 0px;
+  }
+  .laptop {
+    max-width: 120px;
+    right: -10px;
+    top: 200px;
+  }
+  .about__item {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+  .portfolio__item {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+}
